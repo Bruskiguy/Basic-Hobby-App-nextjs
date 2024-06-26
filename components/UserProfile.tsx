@@ -27,7 +27,7 @@ export const UserProfile = () => {
             className="text-black m-3"
             type="text"
             value={nameInput}
-            onChange={(e) => setNameInput(e.target.value)}
+            onChange={(event) => setNameInput(event.target.value)}
             onKeyDown={(event) => {
               if (event.key === "Enter") {
                 addEntry();
@@ -41,7 +41,7 @@ export const UserProfile = () => {
             className="text-black m-3"
             type="text"
             value={hobbyInput}
-            onChange={(e) => setHobbyInput(e.target.value)}
+            onChange={(event) => setHobbyInput(event.target.value)}
             onKeyDown={(event) => {
               if (event.key === "Enter") {
                 addEntry();
