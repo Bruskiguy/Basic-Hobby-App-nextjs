@@ -27,6 +27,8 @@ export const UserProfile = () => {
         <label>
           Name
           <input
+            required
+            placeholder="Name (it's required)"
             className="text-black m-3"
             type="text"
             value={nameInput}
@@ -41,6 +43,8 @@ export const UserProfile = () => {
         <label>
           Add a Hobby
           <input
+            required
+            placeholder="What you do? (required)"
             className="text-black m-3"
             type="text"
             value={hobbyInput}
