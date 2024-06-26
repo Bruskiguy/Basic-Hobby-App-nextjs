@@ -21,7 +21,7 @@ export const UserProfile = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-10">
-        <h1 className="flex justify-center mt-10 font-medium">
+        <h1 className="flex justify-center mt-10 font-bold text-3xl">
           A hobby/Name List
         </h1>
         <label>
